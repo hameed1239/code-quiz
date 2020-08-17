@@ -11,7 +11,7 @@ A coding Quiz Challenge application.
 https://hameed1239.github.io/code-quiz/
 
 
-![Website Screenshot](./assets/images/screeshot.PNG)
+![Website Screenshot](./assets/images/screenshot.PNG)
 Format: ![Alt Text] (url)
 ## Contribution
 Made by Hameed Kazeem
