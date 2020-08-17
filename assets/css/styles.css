@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display:  flex;
+    padding: 35px 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header a{
+    color: purple;
+    text-decoration: none;
+}
+main{
+    margin-top: 50px;
+    flex: 1 0 auto;
+    min-height: auto;
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    
+}
+button{
+    background-color: purple;
+    height: auto;
+    border-radius: 7px;
+    color: white;
+    font-size: 15px;
+    padding: 5px 8px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+
+}
+.start p{
+    font-size: 20px;
+}
+.start button {
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+footer{
+    align-content: flex-end;
+    flex-shrink: 0;
+    padding: 20px;
+}
