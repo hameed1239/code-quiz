@@ -36,6 +36,7 @@ button{
     color: white;
     font-size: 15px;
     padding: 5px 8px;
+
 }
 button a{
     text-decoration: none;
@@ -52,6 +53,36 @@ button a{
     margin-top: 30px;
     font-size: 20px;
     padding: 10px 15px;
+}
+.quiz{
+    flex-direction: column;
+}
+.quiz button{
+    margin: 5px;
+    width:max-content ;
+}
+.quiz h2{
+    margin-bottom: 25px;
+}
+.result h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+    border-top: 2px solid gray;
+    padding-top: 25px;
+    width: 100%;
+    text-align: left;
+}
+.score{
+    align-items: center;
+}
+.score input{
+    height: 30px;
+    font-size: 25px;
+}
+.score button{
+    height: 40px;
+    font-size: 25px;
+
 }
 footer{
     align-content: flex-end;
