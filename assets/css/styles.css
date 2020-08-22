@@ -46,6 +46,10 @@ button a{
 .start{
     flex-direction: column;
 }
+.start h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
 .start p{
     font-size: 20px;
 }
@@ -73,15 +77,60 @@ button a{
     text-align: left;
 }
 .score{
-    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: left;
+}
+
+.score h2{
+    font-size: 45px;
+    text-align: left;
+}
+.score h3{
+    margin-top: 25px;
+    font-size: 25px;
+    text-align: left;
+}
+.score form{
+    display: inline;
+    align-self: start;
 }
 .score input{
-    height: 30px;
-    font-size: 25px;
+    height: 25px;
+    font-size: 20px;
 }
 .score button{
-    height: 40px;
-    font-size: 25px;
+    height: fit-content;
+    font-size: 20px;
+
+}
+.highscore{
+    display: flex;
+    flex-direction: column;
+}
+.highscore h1 {
+    font-size: 40px;
+}
+.highscore ul{
+    margin-top: 40px;
+}
+.highscore button{
+    width: fit-content;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.highscoreButtons{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+    font-size: 20px;
+}
+.highscore li{
+    list-style: none;
+    font-size: 30px;
+    background-color: lightgray;
+    margin-top: 5px;
+    text-align: left;
 
 }
 footer{

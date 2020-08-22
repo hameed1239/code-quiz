@@ -13,27 +13,35 @@
         <p id="timer"></p>
     </header>
     <main>
+        <!-- Quiz home div -->
         <div class = "start" id = "start">
             <h1>Coding Quiz Challenge</h1>
             <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
             <button id="startButton">Start Quiz</button>
         </div>
-        <div class="quiz" id = "quiz">
-            
-        </div>
+        <!-- Quiz div -->
+        <div class="quiz" id = "quiz"></div>
+        <!-- Highscore div -->
         <div class="highscore" id = "highscore">
             <h1>High scores</h1>
-            <ul>
+            <ul id = "highscoreList" class="highscoreList">
             
             </ul>
-            <button id="back">Go back</button>
-            <button id="clear">Clear high scores</button>
+            <div class="highscoreButtons">
+
+                <button id="back">Go back</button>
+                <button id="clear">Clear high scores</button>
+            </div>
+            
         </div>
+        <!-- quiz question result div -->
         <div class="result" id = "result">
             <h2 id = "correctResult"></h2>
-            <!-- <h2 id = "wrongResult">Wrong!</h2> -->
         </div>
+        <!-- Quiz final score div -->
         <div class="score" id="score">
+            <h2>All Done!</h2>
+            <h3 id = "scoreH3"></h3>
             <form>
                 <input id="initials" type="text" placeholder="Please Enter your Initials" />
                 <button id="submit" type="submit">Save</button>
