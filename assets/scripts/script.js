@@ -96,7 +96,7 @@ function showHighscores() {
 
 }//show highScore div
 function myTimer() {
-    if (time === -1) {
+    if (time <= -1) {
         clearInterval(timer);
         endQuiz();
     }
